@@ -1,0 +1,60 @@
+//Creacion-uso de comandos//
+
+Tonga51:~ alumno$ ls
+Desktop		Downloads	Library		Pictures	practica2
+Tonga51:~ alumno$ cd practica2/
+Tonga51:practica2 alumno$ mnkdir Algebra
+-bash: mnkdir: command not found
+Tonga51:practica2 alumno$ mkdir Algebra
+Tonga51:practica2 alumno$ ls
+Algebra		practicsas.txt
+Tonga51:practica2 alumno$ mkdir funprog
+Tonga51:practica2 alumno$ mkdir calculo
+Tonga51:practica2 alumno$ mkdir quimica 
+Tonga51:practica2 alumno$ mkdir fisica 
+Tonga51:practica2 alumno$ ls
+Algebra		fisica		practicsas.txt
+calculo		funprog		quimica
+Tonga51:practica2 alumno$ cd Algebra/
+Tonga51:Algebra alumno$ touch archivo.txt 
+Tonga51:Algebra alumno$ echo "Hola" >> archivo.txt
+Tonga51:Algebra alumno$ cat archivo.txt
+Hola
+Tonga51:Algebra alumno$ echo "Lòpez Marìn Àngel J. 317249604"
+Lòpez Marìn Àngel J. 317249604
+Tonga51:Algebra alumno$ echo "Lòpez Marìn Àngel J. 317249604" >> archivo.txt
+Tonga51:Algebra alumno$ cat archivo.txt 
+Hola
+Lòpez Marìn Àngel J. 317249604
+Tonga51:Algebra alumno$ cd .. 
+Tonga51:practica2 alumno$ ls
+Algebra		fisica		practicsas.txt
+calculo		funprog		quimica
+Tonga51:practica2 alumno$ cd fisica
+Tonga51:fisica alumno$ touch archivo.txt 
+Tonga51:fisica alumno$ echo "Lòpez Marìn Àngel J. 317249604" >> archivo.txt 
+Tonga51:fisica alumno$ cat archivo.txt
+Lòpez Marìn Àngel J. 317249604
+Tonga51:fisica alumno$ cd ..
+Tonga51:practica2 alumno$ cd calculo 
+Tonga51:calculo alumno$ touch archivo.txt
+Tonga51:calculo alumno$ echo "Lòpez Marìn Àngel J. 317249604" >> archivo.txt 
+Tonga51:calculo alumno$ cat archivo.txt
+Lòpez Marìn Àngel J. 317249604
+Tonga51:calculo alumno$ cd ..
+Tonga51:practica2 alumno$ cd funprog
+Tonga51:funprog alumno$ touch archivo.txt 
+Tonga51:funprog alumno$ echo "Lòpez Marìn Àngel J. 317249604" >> archivo.txt 
+Tonga51:funprog alumno$ cat archivo.txt
+Lòpez Marìn Àngel J. 317249604
+Tonga51:funprog alumno$ cd .. 
+Tonga51:practica2 alumno$ cd quimica
+Tonga51:quimica alumno$ touch archivo.txt
+Tonga51:quimica alumno$ echo "Lòpez Marìn Àngel J. 317249604" >> archivo.txt 
+Tonga51:quimica alumno$ cat archivo.txt 
+Lòpez Marìn Àngel J. 317249604
+Tonga51:quimica alumno$ cd ..
+Tonga51:practica2 alumno$ ls 
+Algebra		fisica		practicsas.txt
+calculo		funprog		quimica
+Tonga51:practica2 alumno$ 
